@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/jszip-2.5.0/dt-1.12.1/af-2.4.0/b-2.2.3/b-colvis-2.2.3/b-html5-2.2.3/b-print-2.2.3/cr-1.5.6/date-1.1.2/fc-4.1.0/fh-3.2.4/kt-2.7.0/r-2.3.0/rg-1.2.0/rr-1.2.8/sc-2.0.7/sb-1.3.4/sp-2.0.2/sl-1.4.0/sr-1.1.1/datatables.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+
+<button type="button" onclick="Sifirla()" class="btn btn-primary" data-bs-toggle="modal" data-bs-backdrop="static" data-bs-keyboard="false" data-bs-target="#PersonelModal">
+    Personel Ekle
+</button>
+
+
+<div class="modal fade" id="PersonelModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Personel</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form onsubmit="PersonelEkleGuncelle(event)">
+                <div class="modal-body">
+                    <input type="hidden" name="Id" required />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Ad</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="Ad" required />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Soyad</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="Soyad" required />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Telefon</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="tel" name="Telefon" placeholder="888 888 8888" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div><!--PersonelModal-->
+
+<table class="table table-striped table-bordered table-hover text-center table-responsive" cellspacing="0" style="position: relative; width: 100%; overflow: auto; max-height:600px;" id="PersonelTable">
+    <thead style="position:sticky; top:0;">
+        <tr>
+            <th>Id</th>                 <!--0-->
+            <th>Ad</th>                 <!--1-->
+            <th>Soyad</th>              <!--2-->
+            <th>Telefon</th>            <!--3-->
+            <th></th>                   <!--4-->
+            <th></th>                   <!--5-->
+        </tr>
+    </thead>
+</table>
+
+<script src="~/js/Personel/Personel.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs5/jszip-2.5.0/dt-1.12.1/af-2.4.0/b-2.2.3/b-colvis-2.2.3/b-html5-2.2.3/b-print-2.2.3/cr-1.5.6/date-1.1.2/fc-4.1.0/fh-3.2.4/kt-2.7.0/r-2.3.0/rg-1.2.0/rr-1.2.8/sc-2.0.7/sb-1.3.4/sp-2.0.2/sl-1.4.0/sr-1.1.1/datatables.min.js"></script>
+

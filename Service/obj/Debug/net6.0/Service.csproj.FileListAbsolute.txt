@@ -1,0 +1,17 @@
+C:\Users\osman\source\repos\core-mvc-case\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\osman\source\repos\core-mvc-case\Service\bin\Debug\net6.0\Service.dll
+C:\Users\osman\source\repos\core-mvc-case\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\osman\source\repos\core-mvc-case\Service\bin\Debug\net6.0\Core.dll
+C:\Users\osman\source\repos\core-mvc-case\Service\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\osman\source\repos\core-mvc-case\Service\bin\Debug\net6.0\Core.pdb
+C:\Users\osman\source\repos\core-mvc-case\Service\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\osman\source\repos\core-mvc-case\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+C:\Users\osman\source\repos\core-mvc-case\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osman\source\repos\core-mvc-case\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+C:\Users\osman\source\repos\core-mvc-case\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+C:\Users\osman\source\repos\core-mvc-case\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\osman\source\repos\core-mvc-case\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+C:\Users\osman\source\repos\core-mvc-case\Service\obj\Debug\net6.0\Service.dll
+C:\Users\osman\source\repos\core-mvc-case\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\osman\source\repos\core-mvc-case\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\osman\source\repos\core-mvc-case\Service\obj\Debug\net6.0\ref\Service.dll
